@@ -1,2 +1,26 @@
+## mrp2_simulator (indigo) - 0.2.1-0
+
+The packages in the `mrp2_simulator` repository were released into the `indigo` distro by running `/usr/bin/bloom-release mrp2_simulator --rosdistro indigo --track indigo --edit` on `Mon, 11 Jan 2016 11:56:01 -0000`
+
+These packages were released:
+- `mrp2_gazebo`
+- `mrp2_hardware_gazebo`
+- `mrp2_simulator`
+
+Version of package(s) in repository `mrp2_simulator`:
+- upstream repository: https://github.com/milvusrobotics/mrp2_simulator.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.2.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.38`
+
+
 # mrp2_simulator-release
 GBP Release Repository for mrp2_simulator
