@@ -40,5 +40,5 @@ install(DIRECTORY include/
    DESTINATION ${CATKIN_GLOBAL_INCLUDE_DESTINATION}
    FILES_MATCHING PATTERN "*.h"
 )
-install (FILES mrp2_hardware_gazebo_plugins.xml
+install (FILES plugins/mrp2_hardware_gazebo_plugins.xml
     DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
