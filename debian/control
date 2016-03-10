@@ -1,0 +1,12 @@
+Source: ros-indigo-mrp2-gazebo
+Section: misc
+Priority: extra
+Maintainer: Akif Hacinecipoglu <akifhno@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/mrp2_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-indigo-mrp2-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-gazebo-ros, ros-indigo-mrp2-description, ros-indigo-mrp2-hardware-gazebo
+Description: Launch files and simulation files to run MRP2 in Gazebo.
