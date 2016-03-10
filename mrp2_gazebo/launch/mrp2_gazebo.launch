@@ -29,6 +29,8 @@
   <!-- Differential controller and basic localization -->
   <include file="$(find mrp2_control)/launch/controls.launch" />
 
+  <rosparam command="load" file="$(find mrp2_gazebo)/config/controls.yaml" />
+
   <!-- Teleoperation via joystick and rviz interactive markers -->
   <include file="$(find mrp2_control)/launch/teleop.launch" />
 
