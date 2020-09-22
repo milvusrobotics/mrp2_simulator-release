@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package>
   <name>mrp2_simulator</name>
-  <version>0.2.3</version>
+  <version>1.0.1</version>
   <description>Simulation-related packages for MRP2</description>
-  <maintainer email="akifhno@gmail.com">Akif Hacinecipoglu</maintainer>
+  <maintainer email="emircem.g@milvusrobotics.com">Emir Cem Gezer</maintainer>
   <license>BSD</license>
 
   <author email="akifhno@gmail.com">Akif Hacinecipoglu</author>
@@ -12,7 +12,6 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <run_depend>mrp2_gazebo</run_depend>
-  <run_depend>mrp2_hardware_gazebo</run_depend>
 
   <export>
     <metapackage/>
