@@ -1,0 +1,12 @@
+Source: ros-melodic-mrp2-simulator
+Section: misc
+Priority: optional
+Maintainer: Emir Cem Gezer <emircem.g@milvusrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://wiki.ros.org/mrp2_simulator
+Standards-Version: 3.9.2
+
+Package: ros-melodic-mrp2-simulator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-mrp2-gazebo
+Description: Simulation-related packages for MRP2

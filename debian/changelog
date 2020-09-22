@@ -1,0 +1,25 @@
+ros-melodic-mrp2-simulator (1.0.1-1bionic) bionic; urgency=high
+
+  * version bump to 1.0.0
+  * package maintainers updated
+  * removed dependency: mrp2_hardware_gazebo package
+  * Contributors: OnurDz
+
+ -- Emir Cem Gezer <emircem.g@milvusrobotics.com>  Sun, 20 Sep 2020 21:00:00 -0000
+
+ros-melodic-mrp2-simulator (0.2.3-1bionic) bionic; urgency=high
+
+  * Updated package informations
+  * Contributors: Akif
+
+ -- Emir Cem Gezer <emircem.g@milvusrobotics.com>  Wed, 09 Mar 2016 22:00:00 -0000
+
+ros-melodic-mrp2-simulator (0.2.1-1bionic) bionic; urgency=high
+
+  * Package information update
+  * Initial commit
+  * Contributors: Akif
+
+ -- Emir Cem Gezer <emircem.g@milvusrobotics.com>  Sun, 10 Jan 2016 22:00:00 -0000
+
+
