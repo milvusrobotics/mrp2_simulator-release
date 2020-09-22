@@ -1,0 +1,12 @@
+Source: ros-melodic-mrp2-gazebo
+Section: misc
+Priority: optional
+Maintainer: Emir Cem Gezer <emircem.g@milvusrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://wiki.ros.org/mrp2_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-melodic-mrp2-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-gazebo-ros, ros-melodic-mrp2-description
+Description: Launch files and simulation files to run MRP2 in Gazebo.
